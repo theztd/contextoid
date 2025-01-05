@@ -3,16 +3,23 @@
 Check if given text is still relevant to given comments and marks comments that changing context.
 
 
-
 ## Quick start
+
+1. Generate API Token in your chatGPT
+2. Put this token into .env file
+3. Run development server or generated binary
+
+
+## Run development server
 
 ```bash
 go run ./cmd/
 ```
 
+
 ## Example
 
-Sent example data to api
+1. **Sent example data to api**
 
 ```bash
 curl -X POST http://localhost:8080/v1/gpt/analyze_comments \
@@ -37,7 +44,7 @@ data.json
 ```
 
 
-Response should look like this
+2. **Response should look like this**
 ```json
 {
   "Data": {
