@@ -6,7 +6,7 @@ COPY . /usr/src/contextoid/
 
 WORKDIR /usr/src/contextoid
 
-RUN go build ./cmd/ -o /usr/local/bin/contextoid
+RUN cd cmd; go build . -o /usr/local/bin/contextoid
 
 
 ## Deploy
