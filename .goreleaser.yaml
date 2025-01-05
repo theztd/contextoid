@@ -1,11 +1,10 @@
 project_name: contextoid
 
 builds:
-  - id: default
+  - id: contextoid
     main: ./cmd/main.go
     goos:
       - linux
-      - windows
       - darwin
     goarch:
       - amd64
