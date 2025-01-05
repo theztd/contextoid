@@ -1,0 +1,12 @@
+{
+  "task_text": "Implement the API for handling user comments.",
+  "comments": [
+    "I think we need to add error handling.",
+    "This API should support authentication.",
+    "The API must integrate with a third-party service for notifications.",
+    "Update the documentation to reflect recent changes.",
+    "The API must handle 5000 requests per second.",
+    "Can we discuss the timeline for this task? It seems unclear.",
+    "This is unrelated to the API development and should be handled separately."
+  ]
+}
